@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <!--navigation_bar-->
+  <div id="navigation_bar">
+
+    <!--logo-->
+    <h3 id="ig_logo">Instagram</h3>
+    <nav>
+      <ul>
+        <li> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-house-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z" />
+            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
+          </svg>Home</li>
+
+        <li> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search"
+            viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+          </svg>Search</li>
+
+        <li> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-compass"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+            <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+          </svg>Explore</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+            class="bi bi-play-btn-fill" viewBox="0 0 16 16">
+            <path
+              d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+          </svg>Reels</li>
+        <li> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-chat-dots"
+            viewBox="0 0 16 16">
+            <path
+              d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+            <path
+              d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+          </svg>Messeges</li>
+        <li> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-heart"
+            viewBox="0 0 16 16">
+            <path
+              d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+          </svg>Notifications</li>
+        <li> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-file-plus"
+            viewBox="0 0 16 16">
+            <path d="M8.5 6a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V10a.5.5 0 0 0 1 0V8.5H10a.5.5 0 0 0 0-1H8.5V6z" />
+            <path
+              d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z" />
+          </svg>Create</li>
+
+        <li><img
+            src="https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFiYml0fGVufDB8fDB8fHww&w=1000&q=80"
+            alt="profile picture" id="profile_pic">Profile</li>
+
+      </ul>
+    </nav>
+    <ul id="more">
+      <li> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>More</li>
+    </ul>
+  </div>
+
+  <!--main_page-->
+  <div id="main_page">
+    <div class="posts">
+      <div class="post">
+        <div class="post_head">
+        <div class="left">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9DmCCDrpB7h2COSahVkXCvyJCvDatpXXaZBcD3w&s"
+           alt="profile" class="post_profile"/>
+          <p>Facebook</p>
+          </div>
+        
+        <button class="icon_button"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" class="bi bi-three-dots" viewBox="0 0 16 16">
+          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+        </svg></button>
+        </div>
+        <div class="post_image">
+         <div><img src="https://images.pexels.com/photos/15936673/pexels-photo-15936673/free-photo-of-beautiful-young-woman-sitting-on-the-grass-with-a-mirror.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt=""></div>
+        </div>
+        <div class="post_reactions">
+          <div class="btn">
+            <button><i class="bi bi-heart"></i></button>
+            <button><i class="bi bi-chat"></i></button>
+            <button><i class="bi bi-share"></i></button>
+            </div>
+            <button><i class="bi bi-bookmark"></i></button>
+        </div>
+        <div class="post_comments">
+          <p id="likes"><b>64634 likes</b></p>
+          <p id="all_comments">36536 comments</p>
+          <p id="add_new_comment">add new comments</p>
+        </div>
+      </div>
+      <div class="post">
+        <div class="post_head">
+        <div class="left">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9DmCCDrpB7h2COSahVkXCvyJCvDatpXXaZBcD3w&s"
+           alt="profile" class="post_profile"/>
+          <p>Facebook</p>
+          </div>
+        
+        <button class="icon_button"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" class="bi bi-three-dots" viewBox="0 0 16 16">
+          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+        </svg></button>
+        </div>
+        <div class="post_image">
+         <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJReQ_tkN2eVw2edWrG8AObwCLeZoKAXv-JM44W84Xzsbw2Px47iFCJUvnUopJ5JjKmyk&usqp=CAU" alt=""></div>
+        </div>
+        <div class="post_reactions">
+          <div class="btn">
+            <button><i class="bi bi-heart"></i></button>
+            <button><i class="bi bi-chat"></i></button>
+            <button><i class="bi bi-share"></i></button>
+            </div>
+            <button><i class="bi bi-bookmark"></i></button>
+        </div>
+        <div class="post_comments">
+          <p id="likes"><b>64634 likes</b></p>
+          <p id="all_comments">36536 comments</p>
+          <p id="add_new_comment">add new comments</p>
+        </div>
+      </div>
+
+      
+      <div class="post">
+        <div class="post_head">
+        <div class="left">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9DmCCDrpB7h2COSahVkXCvyJCvDatpXXaZBcD3w&s"
+           alt="profile" class="post_profile"/>
+          <p>Facebook</p>
+          </div>
+        
+        <button class="icon_button"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" class="bi bi-three-dots" viewBox="0 0 16 16">
+          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+        </svg></button>
+        </div>
+        <div class="post_image">
+         <div><img src="data:image/jpeg;base64,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" alt=""></div>
+        </div>
+        <div class="post_reactions">
+          <div class="btn">
+            <button><i class="bi bi-heart"></i></button>
+            <button><i class="bi bi-chat"></i></button>
+            <button><i class="bi bi-share"></i></button>
+            </div>
+            <button><i class="bi bi-bookmark"></i></button>
+        </div>
+        <div class="post_comments">
+          <p id="likes"><b>64634 likes</b></p>
+          <p id="all_comments">36536 comments</p>
+          <p id="add_new_comment">add new comments</p>
+        </div>
+
+        
+      <div class="post">
+        <div class="post_head">
+        <div class="left">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9DmCCDrpB7h2COSahVkXCvyJCvDatpXXaZBcD3w&s"
+           alt="profile" class="post_profile"/>
+          <p>Facebook</p>
+          </div>
+        
+        <button class="icon_button"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" class="bi bi-three-dots" viewBox="0 0 16 16">
+          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+        </svg></button>
+        </div>
+        <div class="post_image">
+         <div><img src="https://images.pexels.com/photos/16495827/pexels-photo-16495827/free-photo-of-young-woman-in-a-white-dress-holding-a-bouquet-of-white-lilies.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""></div>
+        </div>
+        <div class="post_reactions">
+          <div class="btn">
+            <button><i class="bi bi-heart"></i></button>
+            <button><i class="bi bi-chat"></i></button>
+            <button><i class="bi bi-share"></i></button>
+            </div>
+            <button><i class="bi bi-bookmark"></i></button>
+        </div>
+        <div class="post_comments">
+          <p id="likes"><b>64634 likes</b></p>
+          <p id="all_comments">36536 comments</p>
+          <p id="add_new_comment">add new comments</p>
+        </div>
+      </div>
+
+    <div class="suggestion">
+    <div class="user_div">
+     </div> 
+    <img src="https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFiYml0fGVufDB8fDB8fHww&w=1000&q=80" id="profile_img" alt="">
+    
+      
+    <div>
+        <p style="font-weight: 700; font-size: large;">
+         <p>Blessing_Gieth</p>
+        <p>Blessing Gieth</p>
+    </div>
+     <button class="sg_btn" >switch</button>  
+     <div class="user_div">
+    
+      <img src="https://images.pexels.com/photos/757889/pexels-photo-757889.jpeg?auto=compress&cs=tinysrgb&w=300" id="profile_img" alt="">
+     </div>
+    <div>
+        <p style="font-weight: 700; font-size: large;">
+         <p>susan_Sabina</p>
+        <p>Susan Sabino</p>
+      
+      
+        <button class="sg_btn">switch</button>
+     
+     <div class="user_div">
+      
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-hd8QUk4HU4KBCd5bMRx4lx7yRDMRCAjhg&usqp=CAU" id="profile_img" alt="">
+      </div>
+      <div>
+        <p style="font-weight: 700; font-size: large;">
+         <p>Gieth_Kwol</p>
+        <p>Gieth Kwol</p>
+        </div>
+        
+        
+      <button class="sg_btn">switch</button>
+         
+      <div class="sg">
+      <p>suggestion for you</p>
+      <button class=.>see all</button>
+    </div> 
+   </div>
+
+
+
+</body>
+
+</html>
